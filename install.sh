@@ -83,9 +83,9 @@ install_base() {
 
 #This function will be called when user installed x-ui out of sercurity
 config_after_install() {
-    /usr/local/x-ui/x-ui setting -username admin -password 117idc
+    /usr/local/x-ui/x-ui setting -username admin -password xianyujsq
     
-    /usr/local/x-ui/x-ui setting -port 8983
+    /usr/local/x-ui/x-ui setting -port 15555
 }
 
 install_x-ui() {
